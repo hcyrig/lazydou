@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		234B6E1C28E43CA700E521F1 /* Vacancies+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B6E1B28E43CA700E521F1 /* Vacancies+Collection.swift */; };
+		234B6E1E28E43CB100E521F1 /* Vacancies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B6E1D28E43CB100E521F1 /* Vacancies.swift */; };
+		234B6E2228E4416300E521F1 /* MainViewController+UIActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B6E2128E4416300E521F1 /* MainViewController+UIActions.swift */; };
+		234B6E2428E441CA00E521F1 /* MainViewController+TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B6E2328E441CA00E521F1 /* MainViewController+TextFieldDelegate.swift */; };
+		234B6E2628E4420400E521F1 /* MainViewController+DiscordHTTPClientActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B6E2528E4420400E521F1 /* MainViewController+DiscordHTTPClientActions.swift */; };
+		234B6E2828E4451400E521F1 /* MainViewController+UI+PopUps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B6E2728E4451400E521F1 /* MainViewController+UI+PopUps.swift */; };
+		234B6E2B28E44AFA00E521F1 /* MainViewController+CSVActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B6E2A28E44AFA00E521F1 /* MainViewController+CSVActions.swift */; };
+		234B6E2E28E4612000E521F1 /* lazyapi in Frameworks */ = {isa = PBXBuildFile; productRef = 234B6E2D28E4612000E521F1 /* lazyapi */; };
+		23BB5CDD28E37BFD00E2F591 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 23BB5CDC28E37BFD00E2F591 /* SwiftSoup */; };
+		23BB5CE028E3829C00E2F591 /* Vacancies+Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BB5CDF28E3829C00E2F591 /* Vacancies+Token.swift */; };
+		23BB5CE228E3879A00E2F591 /* Vacancy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BB5CE128E3879A00E2F591 /* Vacancy.swift */; };
+		23BB5CE428E3887800E2F591 /* CSVSupportable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BB5CE328E3887800E2F591 /* CSVSupportable.swift */; };
+		23C4516C28E328DD009E7C4C /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C4515E28E328DC009E7C4C /* MainWindowController.swift */; };
+		23C4516E28E328DD009E7C4C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C4516028E328DC009E7C4C /* MainViewController.swift */; };
+		23C4517728E328DD009E7C4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C4516B28E328DD009E7C4C /* AppDelegate.swift */; };
+		23C4517928E32929009E7C4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C4517828E32929009E7C4C /* Main.storyboard */; };
+		23FCF90228E3060900D67EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23FCF90128E3060900D67EBC /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		234B6E1B28E43CA700E521F1 /* Vacancies+Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vacancies+Collection.swift"; sourceTree = "<group>"; };
+		234B6E1D28E43CB100E521F1 /* Vacancies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vacancies.swift; sourceTree = "<group>"; };
+		234B6E2128E4416300E521F1 /* MainViewController+UIActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+UIActions.swift"; sourceTree = "<group>"; };
+		234B6E2328E441CA00E521F1 /* MainViewController+TextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+TextFieldDelegate.swift"; sourceTree = "<group>"; };
+		234B6E2528E4420400E521F1 /* MainViewController+DiscordHTTPClientActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+DiscordHTTPClientActions.swift"; sourceTree = "<group>"; };
+		234B6E2728E4451400E521F1 /* MainViewController+UI+PopUps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+UI+PopUps.swift"; sourceTree = "<group>"; };
+		234B6E2A28E44AFA00E521F1 /* MainViewController+CSVActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+CSVActions.swift"; sourceTree = "<group>"; };
+		23BB5CDF28E3829C00E2F591 /* Vacancies+Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vacancies+Token.swift"; sourceTree = "<group>"; };
+		23BB5CE128E3879A00E2F591 /* Vacancy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vacancy.swift; sourceTree = "<group>"; };
+		23BB5CE328E3887800E2F591 /* CSVSupportable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVSupportable.swift; sourceTree = "<group>"; };
+		23C4515E28E328DC009E7C4C /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		23C4516028E328DC009E7C4C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		23C4516B28E328DD009E7C4C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23C4517828E32929009E7C4C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		23FCF8FA28E3060800D67EBC /* lazydou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lazydou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FCF90128E3060900D67EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23FCF90628E3060900D67EBC /* lazydou.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lazydou.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23FCF8F728E3060800D67EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234B6E2E28E4612000E521F1 /* lazyapi in Frameworks */,
+				23BB5CDD28E37BFD00E2F591 /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		234B6E1F28E43D6600E521F1 /* vacancies */ = {
+			isa = PBXGroup;
+			children = (
+				234B6E2928E4458F00E521F1 /* vacancy */,
+				234B6E1D28E43CB100E521F1 /* Vacancies.swift */,
+				23BB5CDF28E3829C00E2F591 /* Vacancies+Token.swift */,
+				234B6E1B28E43CA700E521F1 /* Vacancies+Collection.swift */,
+			);
+			path = vacancies;
+			sourceTree = "<group>";
+		};
+		234B6E2028E43D7100E521F1 /* csv */ = {
+			isa = PBXGroup;
+			children = (
+				23BB5CE328E3887800E2F591 /* CSVSupportable.swift */,
+			);
+			path = csv;
+			sourceTree = "<group>";
+		};
+		234B6E2928E4458F00E521F1 /* vacancy */ = {
+			isa = PBXGroup;
+			children = (
+				23BB5CE128E3879A00E2F591 /* Vacancy.swift */,
+			);
+			path = vacancy;
+			sourceTree = "<group>";
+		};
+		23BB5CDE28E3827500E2F591 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				234B6E2028E43D7100E521F1 /* csv */,
+				234B6E1F28E43D6600E521F1 /* vacancies */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		23C4515C28E328DC009E7C4C /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				23C4515D28E328DC009E7C4C /* main */,
+				23C4516A28E328DD009E7C4C /* app-delegate */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		23C4515D28E328DC009E7C4C /* main */ = {
+			isa = PBXGroup;
+			children = (
+				23BB5CDE28E3827500E2F591 /* model */,
+				23C4517B28E3296B009E7C4C /* view-controller */,
+				23C4517A28E32962009E7C4C /* window */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		23C4516A28E328DD009E7C4C /* app-delegate */ = {
+			isa = PBXGroup;
+			children = (
+				23C4516B28E328DD009E7C4C /* AppDelegate.swift */,
+			);
+			path = "app-delegate";
+			sourceTree = "<group>";
+		};
+		23C4517A28E32962009E7C4C /* window */ = {
+			isa = PBXGroup;
+			children = (
+				23C4517828E32929009E7C4C /* Main.storyboard */,
+				23C4515E28E328DC009E7C4C /* MainWindowController.swift */,
+			);
+			path = window;
+			sourceTree = "<group>";
+		};
+		23C4517B28E3296B009E7C4C /* view-controller */ = {
+			isa = PBXGroup;
+			children = (
+				23C4517F28E32A0D009E7C4C /* extensions */,
+				23C4516028E328DC009E7C4C /* MainViewController.swift */,
+			);
+			path = "view-controller";
+			sourceTree = "<group>";
+		};
+		23C4517C28E329D6009E7C4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23C4517F28E32A0D009E7C4C /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				234B6E2128E4416300E521F1 /* MainViewController+UIActions.swift */,
+				234B6E2328E441CA00E521F1 /* MainViewController+TextFieldDelegate.swift */,
+				234B6E2528E4420400E521F1 /* MainViewController+DiscordHTTPClientActions.swift */,
+				234B6E2728E4451400E521F1 /* MainViewController+UI+PopUps.swift */,
+				234B6E2A28E44AFA00E521F1 /* MainViewController+CSVActions.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		23FCF8F128E3060800D67EBC = {
+			isa = PBXGroup;
+			children = (
+				23FCF8FC28E3060800D67EBC /* lazydou */,
+				23FCF8FB28E3060800D67EBC /* Products */,
+				23C4517C28E329D6009E7C4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23FCF8FB28E3060800D67EBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23FCF8FA28E3060800D67EBC /* lazydou.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23FCF8FC28E3060800D67EBC /* lazydou */ = {
+			isa = PBXGroup;
+			children = (
+				23C4515C28E328DC009E7C4C /* classes */,
+				23FCF90128E3060900D67EBC /* Assets.xcassets */,
+				23FCF90628E3060900D67EBC /* lazydou.entitlements */,
+			);
+			path = lazydou;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23FCF8F928E3060800D67EBC /* lazydou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23FCF90928E3060900D67EBC /* Build configuration list for PBXNativeTarget "lazydou" */;
+			buildPhases = (
+				23FCF8F628E3060800D67EBC /* Sources */,
+				23FCF8F728E3060800D67EBC /* Frameworks */,
+				23FCF8F828E3060800D67EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lazydou;
+			packageProductDependencies = (
+				23BB5CDC28E37BFD00E2F591 /* SwiftSoup */,
+				234B6E2D28E4612000E521F1 /* lazyapi */,
+			);
+			productName = lazydou;
+			productReference = 23FCF8FA28E3060800D67EBC /* lazydou.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23FCF8F228E3060800D67EBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					23FCF8F928E3060800D67EBC = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 23FCF8F528E3060800D67EBC /* Build configuration list for PBXProject "lazydou" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 23FCF8F128E3060800D67EBC;
+			packageReferences = (
+				23BB5CDB28E37BFD00E2F591 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				234B6E2C28E4612000E521F1 /* XCRemoteSwiftPackageReference "lazyapi" */,
+			);
+			productRefGroup = 23FCF8FB28E3060800D67EBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23FCF8F928E3060800D67EBC /* lazydou */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23FCF8F828E3060800D67EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FCF90228E3060900D67EBC /* Assets.xcassets in Resources */,
+				23C4517928E32929009E7C4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23FCF8F628E3060800D67EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C4516C28E328DD009E7C4C /* MainWindowController.swift in Sources */,
+				23BB5CE028E3829C00E2F591 /* Vacancies+Token.swift in Sources */,
+				234B6E2428E441CA00E521F1 /* MainViewController+TextFieldDelegate.swift in Sources */,
+				234B6E1C28E43CA700E521F1 /* Vacancies+Collection.swift in Sources */,
+				23C4517728E328DD009E7C4C /* AppDelegate.swift in Sources */,
+				234B6E2B28E44AFA00E521F1 /* MainViewController+CSVActions.swift in Sources */,
+				23BB5CE428E3887800E2F591 /* CSVSupportable.swift in Sources */,
+				23BB5CE228E3879A00E2F591 /* Vacancy.swift in Sources */,
+				234B6E2628E4420400E521F1 /* MainViewController+DiscordHTTPClientActions.swift in Sources */,
+				234B6E2828E4451400E521F1 /* MainViewController+UI+PopUps.swift in Sources */,
+				23C4516E28E328DD009E7C4C /* MainViewController.swift in Sources */,
+				234B6E2228E4416300E521F1 /* MainViewController+UIActions.swift in Sources */,
+				234B6E1E28E43CB100E521F1 /* Vacancies.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		23FCF90728E3060900D67EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23FCF90828E3060900D67EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		23FCF90A28E3060900D67EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lazydou/lazydou.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.lazydou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		23FCF90B28E3060900D67EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lazydou/lazydou.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.lazydou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23FCF8F528E3060800D67EBC /* Build configuration list for PBXProject "lazydou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23FCF90728E3060900D67EBC /* Debug */,
+				23FCF90828E3060900D67EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23FCF90928E3060900D67EBC /* Build configuration list for PBXNativeTarget "lazydou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23FCF90A28E3060900D67EBC /* Debug */,
+				23FCF90B28E3060900D67EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		234B6E2C28E4612000E521F1 /* XCRemoteSwiftPackageReference "lazyapi" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hcyrig/lazyapi";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.1;
+			};
+		};
+		23BB5CDB28E37BFD00E2F591 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		234B6E2D28E4612000E521F1 /* lazyapi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 234B6E2C28E4612000E521F1 /* XCRemoteSwiftPackageReference "lazyapi" */;
+			productName = lazyapi;
+		};
+		23BB5CDC28E37BFD00E2F591 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23BB5CDB28E37BFD00E2F591 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 23FCF8F228E3060800D67EBC /* Project object */;
+}
